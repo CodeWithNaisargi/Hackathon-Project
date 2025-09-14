@@ -95,8 +95,26 @@ It helps users and researchers get **accurate, site-specific predictions** of el
 
 ### 1️⃣ Clone the repo  
 ```bash
-git clone https://github.com/your-username/solar-prediction.git
-cd solar-prediction
+git clone https://github.com/CodeWithNaisargi/Hackathon-Project.git
+cd Hackathon-Project
+```
+### Add this script in \Scripts\
+```bash
+https://drive.google.com/file/d/1HAxAZbMZyFfOAiDERvQo6A2ofldluIAY/view?usp=sharing
+```
+
+### run this script 
+```bash
+cd Scripts; python solar-ml-server.py;
+```
+```bash
+npm install
+npm run dev
+```
+### your project is ready!!!!
+
+
+
 
 
 
