@@ -1,5 +1,5 @@
 # 🌞 AI/ML-Based Solar Power Generation Prediction  
-!DEMO (./demo.jpg)
+!DEMO (demo.jpg)
 ## 📌 Overview  
 This project predicts **solar power generation** using **AI/ML techniques** by combining **historical datasets** from Kaggle with **real-time environmental data** from the **NASA POWER API**.  
 
@@ -96,6 +96,7 @@ It helps users and researchers get **accurate, site-specific predictions** of el
 ```bash
 git clone https://github.com/your-username/solar-prediction.git
 cd solar-prediction
+
 
 
 
