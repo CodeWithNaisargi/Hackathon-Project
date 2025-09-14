@@ -37,3 +37,63 @@ It helps users and researchers get **accurate, site-specific predictions** of el
 ---
 
 ## 📂 Project Structure  
+├── backend
+│ ├── data
+│ │ ├── kaggle_solar_data.csv
+│ ├── model
+│ │ ├── random_forest_model.pkl
+│ ├── scripts
+│ │ ├── data_preprocessing.py
+│ │ ├── model_training.py
+│ │ ├── nasa_api_fetch.py
+│ └── app.py
+│
+├── frontend
+│ ├── pages
+│ │ ├── index.js
+│ │ ├── dashboard.js
+│ ├── components
+│ │ ├── InputForm.js
+│ │ ├── ChartView.js
+│ ├── styles
+│ ├── globals.css
+│
+├── README.md
+└── requirements.txt
+
+
+---
+
+## 🚀 How It Works  
+1. **Collect Data**  
+   - Load historical CSV dataset from Kaggle  
+   - Fetch real-time weather/irradiance data via NASA POWER API  
+
+2. **Preprocess & Engineer Features**  
+   - Clean data, extract features like irradiance, temperature, humidity, tilt & azimuth  
+
+3. **Train & Test Model**  
+   - Tried Linear Regression, Decision Tree, Gradient Boosting  
+   - **Random Forest Regression** performed best  
+
+4. **Predict & Visualize**  
+   - Generate hourly/daily predictions  
+   - Display charts & insights in Next.js frontend  
+   - Provide **optimal panel orientation** tips  
+
+---
+
+## 📊 Results  
+- Random Forest Regression gave the **highest accuracy**  
+- Predictions adapt to **real-time weather conditions**  
+- Dashboard displays **daily, weekly, and monthly outputs**  
+
+---
+
+## 🔧 Installation  
+
+### 1️⃣ Clone the repo  
+```bash
+git clone https://github.com/your-username/solar-prediction.git
+cd solar-prediction
+
